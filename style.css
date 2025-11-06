@@ -1,12 +1,10 @@
-/* Geral */
 body {
     margin: 0;
     font-family: 'Lora', serif;
-    background-color: #fffdfb;
+    background-color: #faf3eb;
     color: #000000;
 }
 
-/*  Cabesalho  */
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -21,7 +19,6 @@ header {
 }
 
 
-/*  MENU */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -30,6 +27,7 @@ header {
     background: rgba(82, 47, 3, 0.4);
     backdrop-filter: blur(5px);
 }
+
 
 .logo {
     display: flex;
@@ -45,6 +43,7 @@ header {
     height: 40px;
 }
 
+
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -53,11 +52,12 @@ nav a {
     transition: color 0.3s;
 }
 
+
 nav a:hover {
     color: #d7a45f;
 }
 
-/*  PESQUISA  */
+
 .search {
     background-color: rgba(255, 255, 255, 0.15);
     padding: 5px 10px;
@@ -65,6 +65,7 @@ nav a:hover {
     display: flex;
     align-items: center;
 }
+
 
 .search input {
     background: none;
@@ -74,6 +75,7 @@ nav a:hover {
     padding: 5px;
 }
 
+
 .search button {
     background: none;
     border: none;
@@ -82,13 +84,14 @@ nav a:hover {
     font-size: 16px;
 }
 
-/* ===== HERO ===== */
+
 .hero {
     text-align: center;
     padding: 20px;
     max-width: 700px;
     margin: auto;
 }
+
 
 .hero h1 {
     /*--CULINÁRIA É ARTE-*/
@@ -97,6 +100,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+
 .hero p {
     /*-texto em baixo do CULINARIA É ARTE -*/
     color: #ffffff;
@@ -104,6 +108,7 @@ nav a:hover {
     line-height: 1.6em;
     margin-bottom: 20px;
 }
+
 
 .btn {
     text-decoration: none;
@@ -117,24 +122,24 @@ nav a:hover {
     transition: 0.3s;
 }
 
+
 .btn:hover {
     background-color: #f8cfa8;
     /*PARTE DO VER RECEITAS (ao passar o mouse fica dessa cor*/
 }
-
-
-/* ===== OS 3 BOTOES ===== */
+/*  OS 3 BOTOES  */
 .steps {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;
-    background-color: #fffdfb;
+    background-color: #fcf5ef;
     /* FUNDO DA PATE DOS BOTÕES*/
     padding: 70px 20px;
     margin-top: 80px;
     /* adiciona espaço entre o banner e as etapas */
 }
+
 
 /*BOTÕES DE OPÇOES INGREDIENTES E RECEITAS*/
 .step {
@@ -149,30 +154,34 @@ nav a:hover {
     transition: all 0.3s ease;
 }
 
+
 .step:hover {
     background-color: #f0bd75;
-    /*pARTE DE DENTRO DO BOTÃO QUANDO FOR CLICAR*/
+    /*PARTE DE DENTRO DO BOTÃO QUANDO FOR CLICAR*/
     color: #ffffff;
     /*ESCRITA DETRO DO BATÃO MUDA PARA ESSA COR*/
     transform: translateY(-5px);
 }
+
 
 .icon {
     font-size: 45px;
     margin-bottom: 10px;
 }
 
+
 .step h3 {
     color: #d7a45f;
     margin-bottom: 10px;
 }
 
+
 .step:hover h3 {
     color: #ffffff;
-    /*ESCRITA DETRO DO BOTÃO MUDA PARA ESSA COR*/
+    /*ESCRITA DETRO DO BATÃO MUDA PARA ESSA COR*/
 }
 
-/*  Parte de baixo */
+
 footer {
     background-color: #000000;
     color: #d7a45f;
@@ -180,6 +189,7 @@ footer {
     padding: 20px;
     font-size: 0.9em;
 }
+
 
 footer span {
     text-decoration: underline;
